@@ -2,6 +2,10 @@
 
 A minimalist theme for the static site generator [Hugo][hugo].
 
+### Demo
+
+https://smigle-hugo-theme.netlify.app/
+
 ### Screenshots
 
 ![smigle screenshot-1][screenshot-1]
