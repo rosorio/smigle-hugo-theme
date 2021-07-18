@@ -25,7 +25,8 @@ hugo server
 
 ### Contributing
 Have you found a bug or got an idea for a new feature? Feel free to use
-the issue tracker to let me know. Or make directly a merge request.
+the [issue tracker][issue-tracker] to let me know. Or make directly a
+[merge request][merge-request].
 
 ### Acknowledgements
 
