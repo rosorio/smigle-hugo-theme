@@ -19,3 +19,9 @@ min_version = "0.41.0"
   name = "smol"
   homepage = "https://sumnerevans.com/"
   repo = "https://github.com/sumnerevans/smol"
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    max = ""
+    min = "0.41.0"
