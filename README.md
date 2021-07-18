@@ -16,6 +16,20 @@ https://smigle-hugo-theme.netlify.app/
 - No other external dependencies or comment sections
 - Only one local font ([Iosevka][font])
 
+### Installation
+
+From the root of your site:
+```bash
+git submodule add https://gitlab.com/ian-s-mcb/smigle-hugo-theme themes/smigle
+```
+
+### Updating
+
+From the root of your site:
+```bash
+git submodule update --remote --merge
+```
+
 ### Run example site
 
 ```bash
