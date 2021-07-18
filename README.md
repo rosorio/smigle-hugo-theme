@@ -37,7 +37,7 @@ Hugo themes:
 - [Sumner Evans's smol][smol-sumner]
 
 [hugo]: https://gohugo.io/
-[screenshot-1]: images/screenshot.png
+[screenshot-1]: /images/screenshot.png
 [font]: https://github.com/be5invis/iosevka
 [issue-tracker]: https://gitlab.com/ian-s-mcb/smigle-hugo-theme/-/issues
 [merge-request]: https://gitlab.com/ian-s-mcb/smigle-hugo-theme/-/merge_requests
