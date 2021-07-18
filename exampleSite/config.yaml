@@ -1,0 +1,47 @@
+# exampleSite/config.yaml
+baseURL: http://example.org/
+languageCode: en-us
+theme: smigle
+themesDir: ../.. # Only needed for running the example site
+title: Blog Title
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 2
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 3
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 4
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 5
+params:
+  abbrDateFmt: "Jan 2"
+  author: "Blog Author"
+  brandIconFile: "images/brandIcon.svg"
+  customStylesheets:
+    - "css/custom.css"
+  dateFmt: "2006-01-02"
+  social:
+    - name: GitHub
+      url: https://github.com/ian-s-mcb
+    - name: GitLab
+      url: https://gitlab.com/ian-s-mcb
+    - name: Quizlet
+      url: https://quizlet.com/ian-s-mcb
+    - name: Reddit
+      url: https://www.reddit.com/user/ian-s-mcb
+    - name: StackOverflow
+      url: https://stackoverflow.com/users/3417846/ian-s-mcb
+  subtitle: "Description about Blog Author"
