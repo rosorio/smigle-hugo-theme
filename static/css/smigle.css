@@ -24,6 +24,12 @@ body {
   font-size: 20px;
   font-weight: normal;
 }
+footer {
+  margin-top: 30px;
+}
+header nav {
+  margin: 15px 0;
+}
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   body {
@@ -42,9 +48,6 @@ body {
   #brand h3 {
     font-size: 25px;
   }
-}
-header nav {
-  margin: 15px 0;
 }
 #postsByDate  {
   list-style: none;
