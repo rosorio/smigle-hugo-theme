@@ -20,14 +20,14 @@ https://smigle-hugo-theme.netlify.app/
 
 From the root of your site:
 ```bash
-git submodule add https://gitlab.com/ian-s-mcb/smigle-hugo-theme themes/smigle
+git submodule add https://gitlab.com/ian-s-mcb/smigle-hugo-theme.git themes/smigle
 ```
 
 ### Updating
 
 From the root of your site:
 ```bash
-git submodule update --remote --merge
+git submodule foreach git pull origin main
 ```
 
 ### Run example site
