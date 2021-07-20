@@ -14,7 +14,7 @@ body {
   color: var(--fontcolor);
   text-decoration: none;
 }
-#brand h1,h3 {
+#brand h1, #brand h3 {
   margin: 0;
 }
 #brand h1 {
