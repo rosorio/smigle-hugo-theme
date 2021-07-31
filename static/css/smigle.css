@@ -24,6 +24,9 @@ body {
   font-size: 20px;
   font-weight: normal;
 }
+#brand .icon {
+  width: 75px;
+}
 footer {
   margin-top: 30px;
 }

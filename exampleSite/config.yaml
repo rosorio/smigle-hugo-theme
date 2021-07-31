@@ -30,9 +30,9 @@ params:
   abbrDateFmt: "Jan 2"
   author: "Blog Author"
   brandIconFile: "images/brandIcon.svg"
-  customStylesheets:
-    - "css/custom.css"
   dateFmt: "2006-01-02"
+#  customStylesheets: # Use to override theme styles, like logo size
+#    - "css/custom.css"
   social:
     - name: GitHub
       url: https://github.com/ian-s-mcb
