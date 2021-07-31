@@ -3,11 +3,8 @@
   <p id="social">
     Find me around the web:
     <br />
-    {{ range first 1 .Site.Params.social }}
-      <a href="{{ .url }}">{{ .name }}</a>
-    {{ end }}
-    {{ range after 1 .Site.Params.social }}
-      |
+    {{ range $i, $e := .Site.Params.social }}
+      {{ if $i }} | {{ end }}
       <a href="{{ .url }}">{{ .name }}</a>
     {{ end }}
   </p>
