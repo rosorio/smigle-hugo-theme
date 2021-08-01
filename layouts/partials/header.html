@@ -8,7 +8,7 @@
     </a>
     <div class="text">
       <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
-      {{ with .Site.Params.subtitle }}<h3>{{ . }}</h3>{{ end }}
+      <h3>{{ default "Description about Blog Author" .Site.Params.subtitle }}</h3>
     </div>
   </div>
   <nav>
