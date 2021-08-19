@@ -1,6 +1,14 @@
 # smigle-hugo-theme
 
-A minimalist theme for the static site generator [Hugo][hugo].
+A minimalist theme for the static site generator [Hugo][hugo]. This
+theme is shared on Hugo's [official collection of
+themes][theme-collection].
+
+### Features
+- No JavaScript
+- No Google spyware or tracking of any kind
+- No other external dependencies or comment sections
+- Only one local font ([Iosevka][font])
 
 ### Demo
 
@@ -9,12 +17,6 @@ https://smigle-hugo-theme.netlify.app/
 ### Screenshots
 
 ![smigle screenshot-1][screenshot-1]
-
-### Features
-- No JavaScript
-- No Google spyware or tracking of any kind
-- No other external dependencies or comment sections
-- Only one local font ([Iosevka][font])
 
 ### Installation
 
@@ -55,7 +57,8 @@ Hugo themes:
 - [Sumner Evans's smol][smol-sumner]
 
 [hugo]: https://gohugo.io/
-[screenshot-1]: /images/screenshot.png
+[theme-collection]: https://themes.gohugo.io/themes/smigle-hugo-theme/
+[screenshot-1]: https://gitlab.com/ian-s-mcb/smigle-hugo-theme/-/raw/main/images/screenshot.png
 [font]: https://github.com/be5invis/iosevka
 [issue-tracker]: https://gitlab.com/ian-s-mcb/smigle-hugo-theme/-/issues
 [merge-request]: https://gitlab.com/ian-s-mcb/smigle-hugo-theme/-/merge_requests
